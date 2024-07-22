@@ -1,0 +1,121 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkkhaki; /* Fallback background color */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Login container */
+.login-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; /* Light gray background color */
+    justify-content: center;
+}
+
+/* Sign-in form styles */
+.signin-form {
+    text-align: center;
+}
+
+.signin-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Back to Home link styles */
+.back-home {
+    margin-top: 20px;
+}
+
+.back-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.back-home {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    left: 10px; /* Adjust left position as needed */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.back-home a {
+    text-decoration: none;
+    color: #333; /* Darker text color */
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Choose a font */
+    transition: color 0.3s ease;
+}
+
+.back-home a:hover {
+    color: #007bff;
+}
+
+/* footer {
+    /* text-align: center; */
+    /* padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 50%; */
+/* } */
+
+/* .foot { */
+    /* text-align: center; */
+    /* background-color: #333;
+    font-size: medium;
+} */ 
